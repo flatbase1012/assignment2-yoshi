@@ -1,6 +1,13 @@
 # assignment2-yoshi
 
-[![Deploy to GitHub Pages](https://github.com/yourusername/your-repo-name/actions/workflows/deploy.yml/badge.svg)](https://github.com/flatbase1012/assignment2-yoshi/actions/workflows/deploy.yml)
+## Report (Approach Overview)
+
+Actions's deploy.yml file defines what runner it will use. "ubuntu-latest" runner comes with "npm" and Node by default. This is CI/CD pipeline to deploy code on the Internet right after pushing it to the remote GitHub repository.
+Docker container could be run and it runs locally. The Vite command is configured on package.json and we can use it to build this app as dist directory.
+
+## CI/CD Deployment
+
+[![Deploy to GitHub Pages](https://github.com/flatbase1012/assignment2-yoshi/actions/workflows/deploy.yml/badge.svg)](https://github.com/flatbase1012/assignment2-yoshi/actions/workflows/deploy.yml)
 
 ## Project Description
 A brief description of your project - what it does, why it was created, and any other relevant information.
